@@ -27,10 +27,10 @@ public class Pay
       rate = keyboard.nextDouble();
 
       //calculations
-      if(hours <= 40)
+      if(hours <= 30)
          pay = hours * rate;
       else
-         pay = (hours - 40) * (1.5 * rate) + 40 * rate;
+         pay = (hours - 30) * (1.5 * rate) + 30 * rate;
 
       //display results
       System.out.println("You earned $" + pay);
